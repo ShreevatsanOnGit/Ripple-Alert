@@ -1,4 +1,8 @@
 node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 dist/
 build/
 .cache/
@@ -12,6 +16,9 @@ logs/
 .claude-replay.*
 .tmp-*
 /.figma/design-context/
+.release-staging/
+release/
+RippleAlert-Windows.zip
 
 # Platform-managed agentplat state, not project source. In the
 # client-initiated single-repo workspace layout (make's `Path: "."` spec) the
